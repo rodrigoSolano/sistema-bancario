@@ -1,0 +1,124 @@
+{
+  "warnings": [
+    {
+      "code": "V6096",
+      "cwe": 682,
+      "level": 3,
+      "positions": [
+        {
+          "file": "C:\\Users\\rodri\\Desktop\\GestorCuentasBancarias\\src\\Controller\\UIClient\\UIClientController.java",
+          "line": 35,
+          "endLine": 35,
+          "column": 24,
+          "endColumn": 34,
+          "navigation": {
+            "previousLine": -907591270,
+            "currentLine": 741261,
+            "nextLine": 5607,
+            "columns": 36
+          }
+        }
+      ],
+      "message": "An odd precise comparison. Consider using a comparison with defined precision: Math.abs(A - B) \u003c Epsilon.",
+      "projects": [],
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V6008",
+      "cwe": 690,
+      "level": 3,
+      "positions": [
+        {
+          "file": "C:\\Users\\rodri\\Desktop\\GestorCuentasBancarias\\src\\Model\\cuentas\\Cuenta.java",
+          "line": 55,
+          "endLine": 55,
+          "column": 25,
+          "endColumn": 34,
+          "navigation": {
+            "previousLine": 737,
+            "currentLine": -854730725,
+            "nextLine": 942520464,
+            "columns": 53
+          }
+        }
+      ],
+      "message": "Potential null dereference of \u0027connection\u0027.",
+      "projects": [],
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V6008",
+      "cwe": 690,
+      "level": 3,
+      "positions": [
+        {
+          "file": "C:\\Users\\rodri\\Desktop\\GestorCuentasBancarias\\src\\Model\\cuentas\\Cuenta.java",
+          "line": 85,
+          "endLine": 85,
+          "column": 25,
+          "endColumn": 34,
+          "navigation": {
+            "previousLine": -1268765288,
+            "currentLine": -854730725,
+            "nextLine": 384848929,
+            "columns": 53
+          }
+        }
+      ],
+      "message": "Potential null dereference of \u0027connection\u0027.",
+      "projects": [],
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V6008",
+      "cwe": 690,
+      "level": 3,
+      "positions": [
+        {
+          "file": "C:\\Users\\rodri\\Desktop\\GestorCuentasBancarias\\src\\Model\\cuentas\\Cuenta.java",
+          "line": 110,
+          "endLine": 110,
+          "column": 29,
+          "endColumn": 38,
+          "navigation": {
+            "previousLine": -1268765288,
+            "currentLine": -854730725,
+            "nextLine": 384848929,
+            "columns": 57
+          }
+        }
+      ],
+      "message": "Potential null dereference of \u0027connection\u0027.",
+      "projects": [],
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V6096",
+      "cwe": 682,
+      "level": 3,
+      "positions": [
+        {
+          "file": "C:\\Users\\rodri\\Desktop\\GestorCuentasBancarias\\src\\Controller\\UIClient\\UIClientController.java",
+          "line": 55,
+          "endLine": 55,
+          "column": 20,
+          "endColumn": 59,
+          "navigation": {
+            "previousLine": 572558457,
+            "currentLine": -1511292640,
+            "nextLine": 11436260,
+            "columns": 61
+          }
+        }
+      ],
+      "message": "An odd precise comparison. Consider using a comparison with defined precision: Math.abs(A - B) \u003e Epsilon.",
+      "projects": [],
+      "favorite": false,
+      "falseAlarm": false
+    }
+  ]
+}
